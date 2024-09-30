@@ -1,0 +1,20 @@
+# Asignación de variables
+x = 58
+y = 354
+
+# Uso de variables
+suma = x + y
+print("La suma es:", suma)
+
+
+# Intercambio de valores sin usar una variable temporal
+a = 5
+b = 10
+a, b = b, a
+print("a =", a)  # a = 10
+print("b =", b)  # b = 5
+
+'''
+Podemos usar esta forma para poder dejar varias líneas de instrucciones
+se llama Docstrings
+'''
